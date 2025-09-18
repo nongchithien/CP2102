@@ -1,9 +1,18 @@
 # CP2102
-1. Tạo thư mục robocon với thư mục con week1
+
+## 1. Tạo thư mục robocon với thư mục con week1
+```bash
+mkdir -p robocon/week1
+
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e957992c-b65a-41f7-addb-9821e1a646fe" />
 
 
-2. Group " dialout " đã được add vào user thien123. Đây là gói để đọc các thiết bị ngoại vi như CP2102
+## 2. Thêm user vào group
+ Group " dialout " đã được add vào user thien123. Đây là gói để đọc các thiết bị ngoại vi như CP2102
+```bash
+sudo usermod -a -G dialout thien123
+groups thien123
+
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2af517a3-241d-4f5f-8fbc-fbcfd0237743" />
 
 3. Sau khi kết nối với CP2102 qua USB. Ta có thể xem module này đã được nhận với tên gì bằng cmd :\
