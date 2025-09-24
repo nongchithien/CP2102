@@ -1,6 +1,6 @@
 # CP2102
 
-## 1. Tạo thư mục robocon với thư mục con week1
+## 1. Tạo thư mục mới với thư mục con week1
 ```bash
 mkdir -p robocon/week1
 ```
